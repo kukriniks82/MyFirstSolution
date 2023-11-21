@@ -20,8 +20,8 @@ class Program
         double avarage = 0;
         for (int i = 1; i <= 3; i++)
         {
-            Console.WriteLine($"inpip {i} digit");
-            string fromConsole = Console.ReadLine();
+            Console.WriteLine($"input {i} digit");
+            string? fromConsole = Console.ReadLine();
 
             fromConsole = fromConsole.Replace(",", ".");            
                 /*не знаю почему, у меня при наличии "," в числе ,например 12,12 считывается как 1212 :)
