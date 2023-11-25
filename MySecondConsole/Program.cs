@@ -8,8 +8,10 @@ class Program
         //first part
         double pi = 3.141592653;
         decimal e = 1.414213562373095048M;
-        Console.WriteLine("pi = " + pi + "\n" + "e = " + e);
-       
+        Console.WriteLine("pi = " + pi);
+         Console.WriteLine("e = " + e);
+
+
         //second part
         int a = 3;
         byte b = (byte)a;
